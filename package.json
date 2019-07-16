@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/yuriieasternpeak/tutorial-wdio4-cli-visualgrid/issues"
   },
-  "homepage": "https://github.com/yuriieasternpeak/tutorial-wdio4-cli-visualgrid#readme"
+  "homepage": "https://github.com/yuriieasternpeak/tutorial-wdio4-cli-visualgrid#readme",
+  "dependencies": {
+    "@applitools/eyes.webdriverio": "^2.7.0"
+  },
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
 }

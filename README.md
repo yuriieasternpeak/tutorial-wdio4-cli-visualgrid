@@ -1,1 +1,2 @@
-# tutorial-wdio4-cli-visualgrid
+npm i
+npm test
